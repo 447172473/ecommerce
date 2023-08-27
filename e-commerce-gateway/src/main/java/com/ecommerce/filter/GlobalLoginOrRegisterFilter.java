@@ -1,12 +1,12 @@
 package com.ecommerce.filter;
 
 import com.alibaba.fastjson.JSON;
-import com.imooc.ecommerce.constant.CommonConstant;
-import com.imooc.ecommerce.constant.GatewayConstant;
-import com.imooc.ecommerce.util.TokenParseUtil;
-import com.imooc.ecommerce.vo.JwtToken;
-import com.imooc.ecommerce.vo.LoginUserInfo;
-import com.imooc.ecommerce.vo.UsernameAndPassword;
+import com.ecommerce.constant.CommonConstant;
+import com.ecommerce.constant.GatewayConstant;
+import com.ecommerce.util.TokenParseUtil;
+import com.ecommerce.vo.JwtToken;
+import com.ecommerce.vo.LoginUserInfo;
+import com.ecommerce.vo.UsernameAndPassword;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

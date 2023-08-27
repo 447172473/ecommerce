@@ -1,6 +1,6 @@
 package com.ecommerce.filter;
 
-import com.imooc.ecommerce.constant.GatewayConstant;
+import com.ecommerce.constant.GatewayConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
