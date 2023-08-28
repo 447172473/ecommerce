@@ -25,7 +25,7 @@ public class JWTServiceTest {
     public void testGenerateAndParseToken() throws Exception {
 
         String jwtToken = ijwtService.generateToken(
-                "Qinyi@imooc.com",
+                "Qinyi@com",
                 "25d55ad283aa400af464c76d713c07ad"
         );
         log.info("jwt token is: [{}]", jwtToken);

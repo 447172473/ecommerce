@@ -29,8 +29,8 @@ spring:
   # 配置发送告警的邮箱服务器
   # 但是, 这个要能连接上, 否则会报错
   #  mail:
-  #    host: qinyi.imooc.com
-  #    username: qinyi@imooc.com
+  #    host: qinyi.com
+  #    username: qinyi@com
   #    password: QinyiZhang
   #    default-encoding: UTF-8
   # 监控告警通知
@@ -39,8 +39,8 @@ spring:
 #      notify:
 #        mail:
 #          from: ${spring.mail.username}
-#          to: qinyi@imooc.com
-#          cc: qinyi@imooc.com
+#          to: qinyi@com
+#          cc: qinyi@com
 
 # 暴露端点
 management:
